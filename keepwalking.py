@@ -5,5 +5,15 @@ while choiceB1 != "A" and choiceB1 != "B":
   choiceB1 = input("\nEnter A to lean down to check on the dog or B to mind your own business: ").upper()
 if choiceB1 == "A":
   print("\nThe dog IS sad. It’s sad because it is incredibly hungry. Fortunately for the dog, you provide quite a bit of meat. Your pitiful life has come to an end!")
+  end = input("\nWant to try again? Enter R to restart: ").upper()
+  if end == "R":
+    print("\nToo bad. Life doesn't have second chances.")
+  else: 
+    print("\nGood. We weren't going to give you a second chance anyways.")
 elif choiceB1 == "B":
   print("\nYou skirt around the dog and make it home. What a weird commute. You think nothing of it. You minded your own business! You survived. Nice going. Unfortunately, you were so focused on minding your own business, you forgot your little cousin had spent the day hanging out in your house. The kid removed the carbon monoxide alarm. What a brat. You go to sleep and never wake up. Your pitiful life has come to an end!")
+  end = input("\nWant to try again? Enter R to restart: ").upper()
+  if end == "R":
+    print("\nToo bad. Life doesn't have second chances.")
+  else: 
+    print("\nGood. We weren't going to give you a second chance anyways.")

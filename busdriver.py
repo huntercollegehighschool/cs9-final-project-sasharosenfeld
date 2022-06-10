@@ -9,3 +9,8 @@ if choiceK == "A":
   import sleeping
 elif choiceK == "B":
   print("\nYou are not very persuasive. The bus driver stabs you. Your pitiful life has come to an end!")
+  end = input("\nWant to try again? Enter R to restart: ").upper()
+  if end == "R":
+    print("\nToo bad. Life doesn't have second chances.")
+  else: 
+    print("\nGood. We weren't going to give you a second chance anyways.")
