@@ -14,5 +14,5 @@ if welcome == "Y":
   elif choice1 == "B":
     import walk
 else:
-  print("You're really missing out...")
+  print("\nYou're really missing out...")
 
